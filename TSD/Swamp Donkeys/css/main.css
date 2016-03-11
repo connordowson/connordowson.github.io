@@ -1,0 +1,62 @@
+html{
+  height: 100%;
+
+}
+
+.flex{
+  position: fixed;
+  width: 100%;
+  height: 75px;
+  background-color: #62dd8b;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+.logo{
+
+
+}
+
+ul{
+  display: flex;
+}
+
+li{
+  padding: 10px;
+  list-style-type: none;
+}
+
+a{
+
+}
+
+h1{
+  font-family: Roboo;
+  padding: 10px;
+}
+
+img{
+  height: 60px;
+}
+
+body{
+  background: #62dd8b;
+  height: 100%;
+  margin: 0;
+}
+
+header{
+  background-image: url(http://i.imgur.com/Ipg2e1L.jpg);
+  height: 100vh;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+p{
+  max-width: 600px;
+  margin: 0 auto 20px;
+}

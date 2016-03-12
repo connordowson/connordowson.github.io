@@ -5,15 +5,15 @@ $(document).ready(function(){
 
 		$(".container").mouseenter(function(){
 
-			jQuery(".photo", this).hide();
-			jQuery(".heroes", this).fadeIn("300");
+			jQuery(".photo", this).toggle();
+			jQuery(".heroes", this).fadeToggle("300");
 
 		});
 
 		$(".container").mouseleave(function(){
 
-			jQuery(".photo", this).fadeIn("300");
-			jQuery(".heroes", this).hide();
+			jQuery(".photo", this).fadeToggle("300");
+			jQuery(".heroes", this).toggle();
 
 		});
 

@@ -1,0 +1,77 @@
+.container{
+	width: 225px;
+	height: 300px;
+	background-color: #62DD8B;
+	border: 5px solid #898480;
+	padding: 0;
+	margin: 0;
+}
+
+.name{
+	font-family: Lobster;
+	text-align: center;
+	font-size: 18pt;
+}
+
+.role{
+	font-family: Roboto light;
+	font-style: italic;
+	text-align: center;
+	font-size: 9pt;
+}
+
+.heroes{
+	width: 225px;
+	height: 250px;
+
+}
+
+.dark{
+	background-color: #8CEAA9;
+}
+
+.light{
+	background-color: #BAF2CB;
+}
+
+ul{
+	list-style: none;
+	font-family: Roboto Light;
+
+}
+
+li{
+	padding-left: 5px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 10pt;
+}
+
+.portraits{
+	height: 50px;
+	width: auto;
+	float: right;
+
+}
+
+.photo{
+	height: 250px;
+	margin: 0;
+	padding: 0;
+}
+
+.photo img{
+	height: 250px;
+	width: 225px;
+	padding: 0;
+}
+
+.bottom{
+	height: 50px;
+	width: 225px;
+	padding: 0;
+}
+
+.cunt{
+	display: none;
+}
